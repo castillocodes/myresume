@@ -18,7 +18,7 @@ jQuery(document).ready(function( $ ) {
     interval: 3500
   });
 
-  // JavaScript Chart
+  // Python Chart
   var doughnutData = [{
       value: 70,
       color: "#1abc9c"
@@ -42,7 +42,7 @@ jQuery(document).ready(function( $ ) {
   ];
   var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
 
-  // WordPress Chart
+  // Javascript Chart
   var doughnutData = [{
     value: 65,
     color: "#1abc9c"
