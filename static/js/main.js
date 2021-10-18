@@ -20,11 +20,11 @@ jQuery(document).ready(function( $ ) {
 
   // Python Chart
   var doughnutData = [{
-      value: 70,
+      value: 75,
       color: "#1abc9c"
     },
     {
-      value: 30,
+      value: 25,
       color: "#ecf0f1"
     }
   ];
@@ -44,11 +44,11 @@ jQuery(document).ready(function( $ ) {
 
   // Javascript Chart
   var doughnutData = [{
-    value: 65,
+    value: 50,
     color: "#1abc9c"
   },
   {
-    value: 35,
+    value: 50,
     color: "#ecf0f1"
   }
   ];
@@ -66,7 +66,7 @@ jQuery(document).ready(function( $ ) {
   ];
   var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
 
-  // Photoshop Chart
+  // Github Chart
   var doughnutData = [{
     value: 70,
     color: "#1abc9c"
@@ -78,13 +78,13 @@ jQuery(document).ready(function( $ ) {
   ];
   var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
 
-  // Illustrator Chart
+  // Photoshop Chart
   var doughnutData = [{
-    value: 50,
+    value: 60,
     color: "#1abc9c"
   },
   {
-    value: 50,
+    value: 40,
     color: "#ecf0f1"
   }
   ];
